@@ -1,0 +1,22 @@
+uuid: ee0e4a40-6720-49ba-abd6-914f28df3309
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: fairy_tale_help
+theme: fairy_tale
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

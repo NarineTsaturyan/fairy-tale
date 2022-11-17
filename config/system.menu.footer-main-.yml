@@ -1,0 +1,8 @@
+uuid: 007d14f9-2c31-49e8-b9b0-ace220188b79
+langcode: en
+status: true
+dependencies: {  }
+id: footer-main-
+label: 'Footer main '
+description: 'Main menu for footer section'
+locked: false

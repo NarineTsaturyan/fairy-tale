@@ -1,0 +1,30 @@
+uuid: ad9466fa-80e4-40f3-b0e2-aac356568321
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.fairy_tales
+  module:
+    - system
+    - views
+  theme:
+    - fairy_tale
+id: views_block__fairy_tales_block_1
+theme: fairy_tale
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:fairy_tales-block_1'
+settings:
+  id: 'views_block:fairy_tales-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /fairy-tales

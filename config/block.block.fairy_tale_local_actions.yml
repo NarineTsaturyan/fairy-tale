@@ -1,0 +1,20 @@
+uuid: b14a0fc5-6955-442a-9e35-4a797118b0ac
+langcode: en
+status: false
+dependencies:
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: fairy_tale_local_actions
+theme: fairy_tale
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

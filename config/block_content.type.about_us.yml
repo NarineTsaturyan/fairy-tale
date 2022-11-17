@@ -1,0 +1,8 @@
+uuid: 62d5f5f8-2cf9-4109-aa72-ff20e10ec997
+langcode: en
+status: true
+dependencies: {  }
+id: about_us
+label: 'About us'
+revision: 0
+description: 'About us section for front page'

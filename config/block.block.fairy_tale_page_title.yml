@@ -1,0 +1,20 @@
+uuid: b448e6b0-e014-46ff-9395-effb451afcb8
+langcode: en
+status: false
+dependencies:
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: fairy_tale_page_title
+theme: fairy_tale
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

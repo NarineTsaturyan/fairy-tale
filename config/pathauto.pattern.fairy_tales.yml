@@ -1,0 +1,22 @@
+uuid: c5957e91-d4db-4036-bd3a-1846c141d33c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: fairy_tales
+label: 'Fairy tales'
+type: 'canonical_entities:node'
+pattern: 'fairy-tale/[node:title]'
+selection_criteria:
+  68f84c3f-95d8-4e9a-8f1a-bd650abd1023:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 68f84c3f-95d8-4e9a-8f1a-bd650abd1023
+    context_mapping:
+      node: node
+    bundles:
+      fairy_tales: fairy_tales
+selection_logic: and
+weight: -5
+relationships: {  }

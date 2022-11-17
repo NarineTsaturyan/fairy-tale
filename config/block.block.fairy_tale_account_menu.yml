@@ -1,0 +1,27 @@
+uuid: 5e6d92bc-7fb4-462b-9248-35f5c6790df6
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: jzu74Q7R0QWgw8IniA9HZRSb_a8RPak1M0q5J-VGkZI
+id: fairy_tale_account_menu
+theme: fairy_tale
+region: navigation
+weight: -8
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

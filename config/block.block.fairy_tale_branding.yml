@@ -1,0 +1,25 @@
+uuid: 66b7a0b3-3e9d-4f7a-a631-f66e6d37b81f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: fairy_tale_branding
+theme: fairy_tale
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

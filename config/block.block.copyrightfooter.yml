@@ -1,0 +1,26 @@
+uuid: 42efbdfa-5c80-4e4e-8103-e28da90d5935
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_footer
+  theme:
+    - fairy_tale
+id: copyrightfooter
+theme: fairy_tale
+region: footer_second
+weight: -10
+provider: null
+plugin: copyright_footer
+settings:
+  id: copyright_footer
+  label: 'Copyright Footer'
+  label_display: '0'
+  provider: copyright_footer
+  organization_name: 'Fairy Tale'
+  organization_url: ''
+  year_origin: null
+  year_to_date: 2022
+  version: ''
+  version_url: ''
+visibility: {  }

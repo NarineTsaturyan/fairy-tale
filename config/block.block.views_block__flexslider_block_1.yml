@@ -1,0 +1,29 @@
+uuid: 22252883-7dca-41ff-9164-c6a1fb0db249
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.flexslider
+  module:
+    - system
+    - views
+  theme:
+    - fairy_tale
+id: views_block__flexslider_block_1
+theme: fairy_tale
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:flexslider-block_1'
+settings:
+  id: 'views_block:flexslider-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

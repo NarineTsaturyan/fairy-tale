@@ -1,0 +1,37 @@
+uuid: 9fd70f7a-8457-404d-8871-d2b3c794d418
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+  module:
+    - contact_block
+    - node
+    - system
+  theme:
+    - fairy_tale
+id: contactblock
+theme: fairy_tale
+region: content
+weight: -6
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact us'
+  label_display: visible
+  provider: contact_block
+  contact_form: contact_us
+  form_display: default
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page

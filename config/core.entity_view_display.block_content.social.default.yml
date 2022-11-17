@@ -1,0 +1,22 @@
+uuid: fdfc1ef3-2382-41d1-8387-4d422b688f75
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social
+    - field.field.block_content.social.body
+  module:
+    - text
+id: block_content.social.default
+targetEntityType: block_content
+bundle: social
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

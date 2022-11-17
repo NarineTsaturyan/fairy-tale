@@ -1,0 +1,22 @@
+uuid: 909243a8-c52e-460c-ab35-28b7b36cbd96
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: fairy_tale_powered
+theme: fairy_tale
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

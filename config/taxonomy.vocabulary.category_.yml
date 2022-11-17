@@ -1,0 +1,8 @@
+uuid: 00df3f0c-9ffd-4ca0-8226-2fbcd48a3887
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category_
+description: 'Categories for stories'
+weight: 0

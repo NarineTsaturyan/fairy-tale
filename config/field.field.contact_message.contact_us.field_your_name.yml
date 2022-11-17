@@ -1,0 +1,19 @@
+uuid: a2f81d6c-5e67-4bd4-ac21-f31aa712e82b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contact_us
+    - field.storage.contact_message.field_your_name
+id: contact_message.contact_us.field_your_name
+field_name: field_your_name
+entity_type: contact_message
+bundle: contact_us
+label: 'Your name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

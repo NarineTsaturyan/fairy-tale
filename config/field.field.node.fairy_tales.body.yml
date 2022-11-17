@@ -1,0 +1,23 @@
+uuid: e11bb95d-a3e0-4468-aeec-cb359be80d63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fairy_tales
+  module:
+    - text
+id: node.fairy_tales.body
+field_name: body
+entity_type: node
+bundle: fairy_tales
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

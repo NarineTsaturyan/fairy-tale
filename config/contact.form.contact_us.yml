@@ -1,0 +1,12 @@
+uuid: d6801d4c-69b6-4b41-9ad3-300abd4601e2
+langcode: en
+status: true
+dependencies: {  }
+id: contact_us
+label: 'Contact us'
+recipients:
+  - tsaturyan.narine9@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

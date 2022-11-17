@@ -1,0 +1,47 @@
+uuid: 27b47b9a-d1c3-4a02-9b34-a5b45d5b8324
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fairy_tales.body
+    - field.field.node.fairy_tales.field_age
+    - field.field.node.fairy_tales.field_audio
+    - field.field.node.fairy_tales.field_category
+    - field.field.node.fairy_tales.field_img
+    - node.type.fairy_tales
+  module:
+    - image
+    - text
+    - user
+id: node.fairy_tales.default
+targetEntityType: node
+bundle: fairy_tales
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_age: true
+  field_audio: true
+  field_category: true

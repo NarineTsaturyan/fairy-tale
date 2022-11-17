@@ -1,0 +1,20 @@
+uuid: 4382f253-fb8f-4fb8-aa94-7ffcfe5602bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+  theme:
+    - fairy_tale
+id: addtoanybuttons
+theme: fairy_tale
+region: footer
+weight: -8
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'AddToAny buttons'
+  label_display: '0'
+  provider: addtoany
+visibility: {  }

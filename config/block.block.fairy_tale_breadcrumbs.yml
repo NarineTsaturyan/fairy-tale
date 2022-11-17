@@ -1,0 +1,22 @@
+uuid: 5c9cc916-9fe9-4409-90a6-f210d73cf78b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: fairy_tale_breadcrumbs
+theme: fairy_tale
+region: navigation
+weight: -12
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

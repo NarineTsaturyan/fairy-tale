@@ -1,0 +1,35 @@
+uuid: 50a2671f-1bba-45f4-9da5-d9fbf8beac95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.two.field_image
+    - field.field.paragraph.two.field_text
+    - paragraphs.paragraphs_type.two
+  module:
+    - image
+id: paragraph.two.default
+targetEntityType: paragraph
+bundle: two
+mode: default
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

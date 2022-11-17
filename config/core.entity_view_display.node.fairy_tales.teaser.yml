@@ -1,0 +1,38 @@
+uuid: 0c8a7296-81a4-4f87-9751-3fce811222f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fairy_tales.body
+    - field.field.node.fairy_tales.field_age
+    - field.field.node.fairy_tales.field_audio
+    - field.field.node.fairy_tales.field_category
+    - field.field.node.fairy_tales.field_img
+    - node.type.fairy_tales
+  module:
+    - text
+    - user
+id: node.fairy_tales.teaser
+targetEntityType: node
+bundle: fairy_tales
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_age: true
+  field_audio: true
+  field_category: true
+  field_img: true

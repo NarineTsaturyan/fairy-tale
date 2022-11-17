@@ -1,0 +1,29 @@
+uuid: d45735ae-affd-4d3c-932a-cd0f867233b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.11_14
+  module:
+    - system
+    - views
+  theme:
+    - fairy_tale
+id: views_block__11_14_block_1
+theme: fairy_tale
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:11_14-block_1'
+settings:
+  id: 'views_block:11_14-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

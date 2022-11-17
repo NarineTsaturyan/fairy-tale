@@ -1,0 +1,25 @@
+uuid: e310cc84-989d-4a48-b6f8-460277467f94
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-main-
+  module:
+    - system
+  theme:
+    - fairy_tale
+id: footermain
+theme: fairy_tale
+region: footer
+weight: -9
+provider: null
+plugin: 'system_menu_block:footer-main-'
+settings:
+  id: 'system_menu_block:footer-main-'
+  label: 'Discover more'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

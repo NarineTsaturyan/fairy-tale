@@ -1,0 +1,23 @@
+uuid: 2b8e5237-edc6-4308-8ac5-5e008ad4ae29
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fairy_tale
+id: sitebranding_2
+theme: fairy_tale
+region: navigation
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

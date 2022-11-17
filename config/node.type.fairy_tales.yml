@@ -1,0 +1,17 @@
+uuid: e1bb5ab2-7654-4098-b291-aeaa272f141c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Fairy tales'
+type: fairy_tales
+description: 'Custom content type for stories'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

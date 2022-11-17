@@ -1,0 +1,22 @@
+uuid: 1a597799-43fc-4caa-8a66-aab2d9396cda
+langcode: en
+status: false
+dependencies:
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: fairy_tale_local_tasks
+theme: fairy_tale
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,15 @@
+{
+    "name": "drupal/tiny_html_audio_player",
+    "description": "A tiny and clean audio player for the web.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "support": {
+        "issues": "https://drupal.org/project/issues/tiny_html_audio_player",
+        "source": "https://drupal.org/project/tiny_html_audio_player"
+    },
+    "require": {
+        "drupal/core": "^8.8 || ^9",
+        "drupal/howlerjs": "^1"
+    },
+    "minimum-stability": "dev"
+}

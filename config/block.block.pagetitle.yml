@@ -1,0 +1,24 @@
+uuid: 42615b2d-2174-4bba-944c-94d0ab13255b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fairy_tale
+id: pagetitle
+theme: fairy_tale
+region: content
+weight: -14
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

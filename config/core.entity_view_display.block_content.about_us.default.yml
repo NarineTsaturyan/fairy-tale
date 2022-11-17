@@ -1,0 +1,49 @@
+uuid: 8f4c933f-c258-42dd-8a52-3572de3a7f2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.field.block_content.about_us.body
+    - field.field.block_content.about_us.field_image
+    - field.field.block_content.about_us.field_read_more
+  module:
+    - image
+    - link
+    - text
+id: block_content.about_us.default
+targetEntityType: block_content
+bundle: about_us
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_read_more:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

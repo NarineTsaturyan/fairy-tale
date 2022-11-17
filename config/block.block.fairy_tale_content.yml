@@ -1,0 +1,22 @@
+uuid: 1b99d131-64ae-48b1-a694-9a4cae9cb0ef
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fairy_tale
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: fairy_tale_content
+theme: fairy_tale
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

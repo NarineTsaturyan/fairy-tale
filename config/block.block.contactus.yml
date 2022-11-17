@@ -1,0 +1,25 @@
+uuid: e9af8198-9277-4563-9f77-d7e86b3b76a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - fairy_tale
+id: contactus
+theme: fairy_tale
+region: footer
+weight: -10
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Contact us'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

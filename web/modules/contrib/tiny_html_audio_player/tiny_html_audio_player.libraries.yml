@@ -1,0 +1,15 @@
+tiny_html_audio_player:
+  remote: https://github.com/Irubataru/tiny-html-audio-player
+  version: master
+  license:
+    name: MIT
+    url: https://github.com/Irubataru/tiny-html-audio-player/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    js/tinyPlayer.js: {}
+  css:
+    theme:
+      css/tinyPlayer.css: {}
+  dependencies:
+    - core/jquery
+    - howlerjs/howler
