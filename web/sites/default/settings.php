@@ -765,10 +765,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+
 $databases['default']['default'] = array (
   'database' => 'tale',
   'username' => 'root',
@@ -780,3 +777,8 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_eM8QRzahG7VYchwADH-bB7qyJW4zcqtumRLrrnNznXHFfpnfI3QQ8gaCiymjuzTkVF7-gvbtFg/sync';
+
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}

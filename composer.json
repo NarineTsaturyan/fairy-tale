@@ -33,7 +33,8 @@
         "drupal/social_media_links": "2.9",
         "drupal/tiny_html_audio_player": "1.0",
         "drupal/views_bootstrap": "4.4",
-        "drupal/views_slideshow": "4.8"
+        "drupal/views_slideshow": "4.8",
+        "drush/drush": "^11.3"
     },
     "conflict": {
         "drupal/drupal": "*"
